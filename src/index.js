@@ -6,6 +6,9 @@ import store from './redux/store';
 import './index.css';
 import App from './App';
 
+console.log(store);
+console.log(store.getState());
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
